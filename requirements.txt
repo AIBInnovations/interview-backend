@@ -1,0 +1,27 @@
+# Web framework
+Flask
+flask-cors
+
+# Computer vision / detection
+opencv-python
+numpy
+mediapipe
+facenet-pytorch
+ultralytics
+
+# # AI interview
+# crewai
+# requests
+
+# # Voice & speech
+# pyttsx3
+# SpeechRecognition
+
+# # ---- Version pins to resolve Protobuf conflict ----
+# # MediaPipe requires protobuf<4; OTLP exporters <1.27.0 use protobuf<5,>=3.19
+# protobuf>=3.19,<4
+
+# # Pin OTLP exporters & proto to <1.27.0 so they don’t demand protobuf>=5
+# opentelemetry-proto<1.27.0
+# opentelemetry-exporter-otlp-proto-http<1.27.0
+# opentelemetry-exporter-otlp-proto-grpc<1.27.0
