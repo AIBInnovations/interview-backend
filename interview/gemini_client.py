@@ -5,7 +5,7 @@ import requests
 
 # Make sure you’ve set:
 #   export GOOGLE_API_KEY="YOUR_GEMINI_API_KEY"
-GEMINI_KEY = "AIzaSyAlac4JfpKbpgmi4aIMPt9ALcrkVPPdLPM"
+GEMINI_KEY = "AIzaSyAEp_1C0w1I3sV2C-CyrJKxxz2J3kfOhc4"
 if not GEMINI_KEY:
     raise RuntimeError("Please set the GOOGLE_API_KEY environment variable")
 
